@@ -127,6 +127,38 @@ Welcome to my project portfolio! Below you'll find detailed descriptions of the 
   - Considered GDPR and university data privacy requirements for handling sensitive student application data.  
 - **Technologies**:  
   React, Node.js, Fastify, PostgreSQL, Prisma, Docker, Docker Compose, Proxmox VE, Linux LXC, VirtualBox, JWT, REST API, Bash, Git
+
+### Personal Projects
+
+#### Job Copilot
+- **Role**: Full Stack / Browser Extension Developer  
+- **Duration**: 2026 – Present  
+- **Project Link**: Private / GitHub Repository  
+- **Description**:  
+  Designed and developed an AI-powered Chrome browser extension that helps job seekers analyze job descriptions, tailor resumes, and generate personalized cover letters directly inside job board pages. The extension automatically extracts structured job information from supported platforms, compares live job descriptions with the candidate profile, and provides AI-assisted career recommendations using OpenRouter.
+
+- **Responsibilities**:  
+  - Built a Chrome Manifest V3 browser extension using Plasmo, React, and TypeScript.  
+  - Developed a floating sidebar interface that injects directly into supported job board pages and provides AI-powered career actions inside the user’s job search workflow.  
+  - Implemented job board detection and structured job extraction for LinkedIn, Indeed, Xing, and StepStone.  
+  - Built a pluggable extractor registry to support multiple job boards with board-specific extraction logic and SPA navigation handling.  
+  - Implemented MutationObserver-based route change detection to re-run job extraction when users navigate between job postings on single-page job board applications.  
+  - Developed ATS job match analysis that compares a candidate profile against the live job description and returns a match score, matched strengths, and missing skills.  
+  - Integrated OpenRouter API for AI-powered ATS analysis, resume tailoring, cover letter generation, and language requirement detection.  
+  - Built AI resume tailoring functionality to rewrite candidate profile content based on job-specific ATS keywords and job description language.  
+  - Developed personalized cover letter generation with preview, editing, formatting, and PDF export support using jsPDF.  
+  - Implemented configurable AI prompts for ATS analysis, resume tailoring, and cover letter generation through an in-extension prompt editing interface.  
+  - Built an AI engine configuration drawer allowing users to manage OpenRouter API key, model selection, temperature, prompt rules, and candidate profile settings.  
+  - Implemented Chrome local storage persistence using Plasmo storage for API keys, selected models, prompts, candidate profile, extracted job data, sidebar state, and integration settings.  
+  - Added configurable AI behavior rules such as strict scoring, evidence-based matching, and assumption control to improve ATS analysis quality.  
+  - Implemented prompt cache optimization using shared system messages and session-based routing to reduce repeated token usage across parallel AI requests.  
+  - Developed Google Sheets webhook integration to export extracted job data, ATS scores, tailored resumes, and generated cover letters.  
+  - Designed reusable React components for the sidebar, job information card, action buttons, ATS result card, resume workspace, cover letter preview, prompt modal, and AI engine settings.  
+  - Implemented client-side-only architecture with no backend server, ensuring user data remains in browser storage except when explicitly sent to the configured AI provider or webhook endpoint.  
+  - Added support for development, production build, and Chrome extension loading workflows using Plasmo and pnpm.  
+
+- **Technologies**:  
+  Plasmo, Chrome Manifest V3, React, TypeScript, OpenRouter API, Chrome Local Storage, @plasmohq/storage, JavaScript, DOM Extraction, MutationObserver, jsPDF, Google Sheets Webhook, AI Prompt Engineering, ATS Analysis, Resume Tailoring, Cover Letter Generation, pnpm
   
 ## Contact
 
