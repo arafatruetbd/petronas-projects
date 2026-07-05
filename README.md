@@ -106,6 +106,28 @@ Welcome to my project portfolio! Below you'll find detailed descriptions of the 
 - **Technologies**:  
   Next.js, React, Redux, Formik, Yup, i18next, MeiliSearch, Axios, JWT, Sequelize, PostgreSQL, Hapi.js, AWS SDK, Cloudinary, Sentry, Chart.js, Bootstrap, CoreUI, Reactstrap, ExcelJS, Node.js, Nodemon, Moment.js, Lodash, React Router, Redux Persist, RxJS, Recompose, React Helmet, SweetAlert2, Sharp  
 
+### University of Siegen AStA Projects
+
+#### AStA Hardship Application Portal
+- **Role**: Full Stack Developer  
+- **Duration**: June 2026 – Present  
+- **Project Link**: Private / Internal University Project  
+- **Description**:  
+  Designed and developed a secure full-stack web application for the University of Siegen AStA to digitalize hardship fund applications. The system allows students to submit applications online and enables administrators to review, manage, and process applications through a secure dashboard.  
+- **Responsibilities**:  
+  - Developed RESTful APIs using Node.js and Fastify.  
+  - Built responsive frontend interfaces using React.  
+  - Integrated PostgreSQL database for application and user data management.  
+  - Implemented JWT-based authentication and role-based access control.  
+  - Configured database migrations, seed scripts, and health-check endpoints.  
+  - Containerized backend and database services using Docker and Docker Compose.  
+  - Deployed the application inside Linux LXC containers on Proxmox VE.  
+  - Configured VirtualBox, Proxmox networking, LXC networking, Docker port mapping, and local port forwarding.  
+  - Debugged deployment issues related to DNS, Docker registry access, database seeding, container health checks, and port forwarding.  
+  - Considered GDPR and university data privacy requirements for handling sensitive student application data.  
+- **Technologies**:  
+  React, Node.js, Fastify, PostgreSQL, Prisma, Docker, Docker Compose, Proxmox VE, Linux LXC, VirtualBox, JWT, REST API, Bash, Git
+  
 ## Contact
 
 - **Email**: [arafat.ruet.bd@gmail.com](mailto:arafat.ruet.bd@gmail.com)  
